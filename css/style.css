@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* Top contact detail */
+.contact-top-line {
+  background: rgba(89, 87, 87, 0.7) !important;
+}
+.contact-info {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+/* ----------------------- 1. TOP IMG LOGO HERE -------------------------------*/
+.top-log {
+  width: 15% !important;
+  height: 10% !important;
+}
+
+/* ----------------------- 2. NAVBAR HERE -------------------------------*/
+
+.nav-link {
+  color: black; /* Ensures text is dark */
+}
+.navbar-toggler-icon {
+  color: black !important;
+  font-size: xx-large !important;
+}
+.my-navbar .offcanvas-body .nav-link {
+  color: black; /* Ensures text in offcanvas is dark */
+}
+.my-navbar .btn-outline-danger {
+  color: red; /* Button text color */
+  border-color: red; /* Button border color */
+}
+
+.my-navbar-toggler {
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+}
+
+.my-navbar-toggler i {
+  font-size: 55px !important;
+  background-color: transparent !important;
+}
+
+.right-side-icons a i,
+.icons-0ffacva a i {
+  color: #dc9c2a;
+  font-weight: 700;
+  font-size: xx-large;
+  margin: 5px;
+}
+.right-side-icons button,
+.icons-0ffacva button {
+  background-color: #dc9c2a;
+  color: #000;
+  font-weight: 400;
+}
+
+.my-navbar .navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-weight: 400;
+}
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-weight: 400;
+  font-size: xx-large;
+  line-height: 4.5rem;
+}
+/* ----------------------- 3. DROPDOWN MENU STYLING -------------------------------*/
+
+.dropdown-menu {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-size: xx-large;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #333;
+  padding: 10px 20px;
+  font-size: large;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #dc9c2a;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.navbar-nav .dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 10px 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #dc9c2a transparent;
+}
+/* ---------------------- 2. Hero Container Start Here------------------- */
+.bg-container {
+  position: relative;
+  height: 75vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bg-container img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.text-container h1,
+.text-container h2,
+.text-container h3 {
+  color: #dc9c2a;
+}
+.earnnowbtn {
+  background-color: #000;
+  color: #dc9c2a !important;
+}
+/* 3. Form here */
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 85%;
+  background-color: ghostwhite;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-container form {
+  background-color: transparent;
+}
+.form-container input {
+  border: 1px solid #dc9c2a;
+}
+.form-container form label {
+  font-size: large;
+  font-weight: 500;
+}
+.form-container .btn-sreach-top {
+  background-color: #dc9c2a;
+  color: white !important;
+}
+
+/* 4. brand container */
+.brand-container {
+  position: relative;
+}
+.brand-1,
+.brand-2,
+.brand-3,
+.brand-4 {
+  background-size: cover;
+  background-position: center;
+  height: 550px; /* Adjust height as needed */
+  position: relative;
+  overflow: hidden; /* Ensure the content does not overflow */
+}
+.brand-1 {
+  background-image: url("../images/img-ethic.webp");
+}
+.brand-2 {
+  background-image: url("../images/img-khadi.webp");
+}
+.brand-3 {
+  background-image: url("../images/img-nishta.webp");
+}
+.brand-4 {
+  background-image: url("../images/img-saay.webp");
+}
+.logo-container {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Optional: add a semi-transparent background */
+  padding: 5px;
+  border-radius: x;
+}
+.logo-container img {
+  width: 60px; /* Adjust logo size as needed */
+}
+.brand-container h2 {
+  color: #dc9c2a !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* top collection */
+.top-collection h2 {
+  color: #dc9c2a !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* Custom styles for Owl Carousel */
+.top-collection .owl-carousel .item {
+  position: relative;
+}
+.top-collection .owl-carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.top-collection .owl-carousel .compare-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: white;
+  padding: 4px;
+  z-index: 2;
+}
+.top-collection .owl-carousel .shop-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(240, 230, 230, 0.748);
+  color: #000 !important;
+  padding: 14px;
+  z-index: 2;
+  border-radius: 90% !important;
+}
+/* Rating  */
+.renting-section h2 {
+  color: #dc9c2a !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.benefits {
+  background-image: url("../images/rating-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center !important;
+}
+
+.benefits p {
+  color: #000;
+  font-weight: 500;
+}
+
+/* cartegory */
+.accordion-container .my-accordion-item {
+  margin-right: 10px;
+}
+
+.accordion-container .accordion-item:last-child {
+  margin-right: 0;
+}
+
+.accordion-container .d-flex .accordion-header {
+  margin-bottom: 0;
+}
+.accordion-container .my-accordion-button {
+  border: none;
+  background-color: transparent;
+  color: #dc9c2a;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none !important;
+}
+.accordion-body .accordion-carousel .item {
+  /* margin: 10px; */
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+.carousel-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.custom-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+.custom-nav button {
+  background-color: transparent;
+  border: none;
+  color: #dc9c2a !important;
+  padding: 0px 20px !important;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.custom-nav button:hover {
+  background-color: #dedede;
+}
+.slide-number {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item-body {
+  color: #000 !important;
+}
+/* Newslatter */
+.subscription-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.subscription-form {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.phone-input {
+  flex: 3;
+}
+
+/* footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer .contact,
+.footer .help,
+.footer .social {
+  margin-bottom: 20px;
+}
+.footer .social i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.footer .copyright {
+  background-color: #dc9c2a;
+  padding: 10px 0;
+  text-align: center;
+}

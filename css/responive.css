@@ -1,0 +1,95 @@
+/* navbar here */
+
+@media (min-width: 992px) {
+  .my-navbar .navbar-brand img {
+    width: 200px;
+    height: 100px;
+  }
+  .my-navbar .navbar-nav .nav-item .nav-link {
+    font-size: larger !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .content .text-container h1 {
+    font-size: 38px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .my-navbar .navbar-brand img {
+    width: 350px !important;
+    height: 100% !important;
+  }
+  .my-navbar .navbar-brand {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .right-side-icons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 772px) {
+  .right-side-icons {
+    display: none !important;
+  }
+}
+
+/* New styles for 992px to 1200px range */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .right-side-icons {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Ensure right-side icons display block at 1024px */
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+  .right-side-icons {
+    display: block !important;
+  }
+}
+
+/* hero here */
+@media (max-width: 991.98px) {
+  .text-container h1,
+  .text-container h2,
+  .text-container p {
+    font-size: 55px !important;
+  }
+}
+@media (max-width: 768px) {
+  .text-container h1,
+  .text-container h2 {
+    font-size: 2.5rem !important;
+    width: 100% !important;
+    font-weight: 900 !important;
+  }
+}
+@media (max-width: 768px) {
+  .text-container p {
+    font-size: 2rem !important;
+    width: 100% !important;
+    font-weight: 900 !important;
+  }
+  .form-container form label {
+    font-size: larger;
+    font-weight: 500;
+  }
+}
+
+/* Our best seller */
+
+/* newsletere */
+@media (min-width: 992px) {
+  .subscription-form {
+    margin-left: -49px;
+  }
+}

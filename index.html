@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responive.css" />
+
+    <!-- custom js -->
+    <script src="./js/script.js" defer></script>
+
+    <title>Rent Hives</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <!-- top contact detail -->
+    <div class="container-fluid contact-top-line py-3 px-5">
+      <div
+        class="row justify-content-center align-items-center text-center text-md-center px-5"
+      >
+        <!-- Left Section: Navigation Links -->
+        <div
+          class="col-md-4 d-flex justify-content-center justify-content-md-center mb-2 mb-md-0"
+        >
+          <ul class="list-unstyled d-flex m-0">
+            <!-- Contact -->
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold me-3"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <!-- FAQ's -->
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold"
+                aria-current="page"
+                href="#"
+                >FAQ's</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Center Section: Welcome Message -->
+        <div class="col-md-4 text-warning fw-bold mb-2 mb-md-0">
+          <p class="m-0">Welcome To Rent Hives</p>
+        </div>
+        <!-- Right Section: Contact Information -->
+        <div class="col-md-4 text-white fw-bold">
+          <p class="m-0">
+            <span class="navbar-contact">WhatsApp: +1-234-567-890</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- top contact detail -->
+    <!-- TOP IMG LOGO HERE -->
+    <!-- <div class="d-lg-block d-none text-center">
+      <img
+        src="./images/image-removebg-preview (5).png"
+        class="top-log img-fluid mx-auto"
+        alt=""
+      />
+    </div> -->
+    <!-- TOP IMG LOGO HERE -->
+    <!--1. NAVBAR START HERE  -->
+    <nav class="navbar navbar-expand-lg my-navbar navbar-light bg-white">
+      <div class="container-fluid">
+        <!-- Navbar toggler on the left side -->
+        <button
+          class="my-navbar-toggler me-2 d-block d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <!-- Logo centered -->
+        <a class="navbar-brand mx-lg-0 mx-auto" href="#">
+          <img src="./images/image-removebg-preview (5).png" alt="Logo" />
+        </a>
+        <!-- Navigation links and button for large devices -->
+        <div
+          class="collapse navbar-collapse justify-content-center d-none d-lg-flex"
+        >
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                id="womensDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Women's Woes
+              </a>
+              <ul
+                class="dropdown-menu center-dropdown-items"
+                aria-labelledby="womensDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Lovely Looks </a></li>
+                <li><a class="dropdown-item" href="#">Bridal Bliss</a></li>
+                <li><a class="dropdown-item" href="#">Chic Campus</a></li>
+                <li><a class="dropdown-item" href="#">Glam Galz</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                id="mensDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Men's Marry
+              </a>
+              <ul
+                class="dropdown-menu center-dropdown-items"
+                aria-labelledby="mensDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Groom Gear</a></li>
+                <li><a class="dropdown-item" href="#">Party Picks</a></li>
+                <li><a class="dropdown-item" href="#">Campus Cool</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Office Officials</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Travels Trends</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                id="specialOccasionsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Special Occasions
+              </a>
+              <ul
+                class="dropdown-menu center-dropdown-items"
+                aria-labelledby="specialOccasionsDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Bridal Bliss (Women's)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Groom Gear (Men's) </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Party Picks (Both) </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                id="travelVacationsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Celebrities Choice
+              </a>
+              <ul
+                class="dropdown-menu center-dropdown-items"
+                aria-labelledby="travelVacationsDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Trendy Picks </a></li>
+                <li><a class="dropdown-item" href="#">Trendy Picks </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- Icon and button on the right side -->
+        <div class="d-flex justify-content-end right-side-icons">
+          <a href="#" class="nav-links px-0 m-0" id="searchIcon"
+            ><i class="fas fa-search"></i
+          ></a>
+          <a href="./signup.html" class="nav-links" id="userIcon"
+            ><i class="fas fa-user"></i
+          ></a>
+          <button class="btn ms-2">Eran now</button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="womensDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Women's Woes
+            </a>
+            <ul
+              class="dropdown-menu center-dropdown-items"
+              aria-labelledby="womensDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Lovely Looks </a></li>
+              <li><a class="dropdown-item" href="#">Bridal Bliss</a></li>
+              <li><a class="dropdown-item" href="#">Chic Campus</a></li>
+              <li><a class="dropdown-item" href="#">Glam Galz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="mensDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Men's Marry
+            </a>
+            <ul
+              class="dropdown-menu center-dropdown-items"
+              aria-labelledby="mensDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Groom Gear</a></li>
+              <li><a class="dropdown-item" href="#">Party Picks</a></li>
+              <li><a class="dropdown-item" href="#">Campus Cool</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Office Officials</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Travels Trends</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="specialOccasionsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Special Occasions
+            </a>
+            <ul
+              class="dropdown-menu center-dropdown-items"
+              aria-labelledby="specialOccasionsDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Bridal Bliss (Women's)</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Groom Gear (Men's) </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Party Picks (Both) </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="travelVacationsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Celebrities Choice
+            </a>
+            <ul
+              class="dropdown-menu center-dropdown-items"
+              aria-labelledby="travelVacationsDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Trendy Picks </a></li>
+              <li><a class="dropdown-item" href="#">Trendy Picks </a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Icon and button on the right side -->
+        <div class="d-flex justify-content-center mt-5 gap-3 icons-0ffacva">
+          <a href="#" class="nav-links px-0 m-0" id="searchIcon"
+            ><i class="fas fa-search"></i
+          ></a>
+          <a href="./signup.html" class="nav-links" id="userIcon"
+            ><i class="fas fa-user"></i
+          ></a>
+          <button class="btn ms-2 fs-3">Earn now</button>
+        </div>
+      </div>
+    </div>
+    <!--1. NAVBAR END HERE  -->
+    <!-- 2. Hero Container start here -->
+    <div class="bg-container mb-4">
+      <img
+        src="./images/hero11.webp"
+        class="background-image"
+        alt="Background Image 1"
+      />
+      <img
+        src="./images/hero12.webp"
+        class="background-image"
+        alt="Background Image 2"
+        style="opacity: 0"
+      />
+      <img
+        src="./images/here13.webp"
+        class="background-image"
+        alt="Background Image 3"
+        style="opacity: 0"
+      />
+      <div class="content container">
+        <div class="row d-lg-flex justify-content-center align-items-center">
+          <div
+            class="text-container col-12 text-black fw-bold text-center mb-4"
+          >
+            <h1 class="fs-1 fw-bold">Perfect Outfit is Your</h1>
+            <h2 class="fs-1 fw-bold">Perfect Festive</h2>
+            <p class="fs-5 fw-bold">GET IT ON YOUR TERMS!</p>
+            <a
+              href="#"
+              class="btn text-decoration-none px-4 py-2 rounded text-white earnnowbtn"
+              >Earn Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2. Hero Container here -->
+    <!-- 3. Form Container Start here -->
+    <div class="container form-container mb-4">
+      <form class="p-4 m-0 rounded">
+        <div class="row g-3">
+          <div class="col-12 col-lg-3">
+            <label for="searchProduct" class="form-label"
+              >Search Any Product</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="searchProduct"
+              placeholder="Keyword Search"
+            />
+          </div>
+          <div class="col-12 col-lg-3">
+            <label for="location" class="form-label">Location</label>
+            <input
+              type="text"
+              class="form-control"
+              id="location"
+              placeholder="Location Search"
+            />
+          </div>
+          <div class="col-12 col-lg-3">
+            <label for="rentalDates" class="form-label">Rental Dates</label>
+            <input
+              type="text"
+              class="form-control"
+              id="rentalDates"
+              placeholder="Add Dates"
+            />
+          </div>
+          <div class="col-12 col-lg-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-sreach-top w-100">
+              Find You Dress
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- 3. Form Container End here -->
+
+    <!-- 4. Brands Container Start Here -->
+    <div class="container mb-4 brand-container">
+      <h2 class="py-4">Shop by brands</h2>
+      <div class="row justify-content-between">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3 brand-1">
+          <div class="logo-container">
+            <img src="images/ethic.jpg" alt="Logo 1" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3 brand-2">
+          <div class="logo-container">
+            <img src="images/khaadi.jpg" alt="Logo 2" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3 brand-3">
+          <div class="logo-container">
+            <img src="images/saya.jpg" alt="Logo 3" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3 brand-4">
+          <div class="logo-container">
+            <img src="images/nishta.jpg" alt="Logo 4" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 4. Brands Container End Here -->
+
+    <!--5. Top Collection -->
+    <div class="container py-5 mb-4 top-collection">
+      <h2 class="py-3">Top Collection</h2>
+      <div class="row">
+        <div class="col">
+          <!-- Owl Carousel -->
+          <div class="owl-carousel owl-theme owl-carousel-item">
+            <div class="item">
+              <img src="./images/women-1.webp" alt="Image 1" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-2.webp" alt="Image 2" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-3.webp" alt="Image 3" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-4.jpg" alt="Image 4" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-5.jpg" alt="Image 5" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-6.jpg" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-14.webp" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-15.webp" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-16.webp" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-17.webp" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-18.jpg" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-19.jpg" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./images/women-20.webp" alt="Image 6" />
+              <div class="compare-icon">
+                <a> <i class="fa-solid fa-plus"></i> compare</a>
+              </div>
+              <div class="shop-icon">
+                <a href="#" class="text-decoration-none text-black">
+                  <i class="fa-solid fa-bag-shopping fs-4"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--5. Top Collection -->
+
+    <!-- 6. poster here -->
+    <section class="renting-section container mb-4">
+      <h2 class="py-4 text-center">WHY WE LOVE RENTING?</h2>
+      <div class="row justify-content-center align-items-center px-5">
+        <div class="co1-12 col-md-6 image-wrapper mb-3 text-center">
+          <img
+            src="./images/why_love_renting-2.jpg"
+            alt="Why We Love Renting"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 col-md-6 benefits px-5">
+          <div class="align-items-center mb-3">
+            <i class="far fa-star text-secondary me-3 fs-1"></i>
+            <p class="mb-0 fs-4">Smooth Experience</p>
+          </div>
+          <div class="align-items-center mb-3">
+            <i class="fas fa-piggy-bank text-secondary me-3 fs-1"></i>
+            <p class="mb-0 fs-4">Savings Up to 90%</p>
+          </div>
+          <div class="align-items-center">
+            <i class="fas fa-person-dress text-secondary me-3 fs-1"></i>
+            <p class="mb-0 fs-4">Try out new looks at every event</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6. poster here -->
+
+    <!--7. category -->
+    <div
+      class="accordion container my-5 accordion-container"
+      id="accordionPanelsStayOpenExample"
+    >
+      <div class="d-flex justify-content-center">
+        <div class="my-accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="my-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              Women's Woes
+            </button>
+          </h2>
+        </div>
+        <div class="my-accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="my-accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              Men's Marry
+            </button>
+          </h2>
+        </div>
+        <div class="my-accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="my-accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              Special Occasions
+            </button>
+          </h2>
+        </div>
+        <div class="my-accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button
+              class="my-accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour"
+            >
+              Celebrities Choice
+            </button>
+          </h2>
+        </div>
+      </div>
+      <!-- Content for Women's Woes -->
+      <div class="my-accordion-item">
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne"
+          data-bs-parent="#accordionPanelsStayOpenExample"
+        >
+          <!-- women's -->
+          <div class="accordion-body mt-4">
+            <div class="owl-carousel owl-theme accordion-carousel">
+              <div class="item">
+                <img
+                  src="./images/women-20.webp"
+                  alt="Image 1"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1284</h5>
+                  <p>Rs 1700</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/women-19.jpg"
+                  alt="Image 2"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1285</h5>
+                  <p>Rs 1800</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/women-18.jpg"
+                  alt="Image 3"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1286</h5>
+                  <p>Rs 1900</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/women-17.webp"
+                  alt="Image 4"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1287</h5>
+                  <p>Rs 2000</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/women-16.webp"
+                  alt="Image 5"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1288</h5>
+                  <p>Rs 2100</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/women-15.webp"
+                  alt="Image 6"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1289</h5>
+                  <p>Rs 2200</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/women-14.webp"
+                  alt="Image 7"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1290</h5>
+                  <p>Rs 2300</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/img-khadi.webp"
+                  alt="Image 8"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1291</h5>
+                  <p>Rs 2400</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/img-nishta.webp"
+                  alt="Image 9"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>B1292</h5>
+                  <p>Rs 2500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content for Men's Marry -->
+      <div class="my-accordion-item">
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo"
+          data-bs-parent="#accordionPanelsStayOpenExample"
+        >
+          <div class="accordion-body">
+            <div class="owl-carousel owl-theme accordion-carousel">
+              <div class="item">
+                <img
+                  src="./images/men-10.webp"
+                  alt="Image 1"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1284</h5>
+                  <p>Rs 2700</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-9.webp"
+                  alt="Image 2"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1285</h5>
+                  <p>Rs 2800</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-8.webp"
+                  alt="Image 3"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1286</h5>
+                  <p>Rs 2900</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-7.webp"
+                  alt="Image 4"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1287</h5>
+                  <p>Rs 3000</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-6.webp"
+                  alt="Image 5"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1288</h5>
+                  <p>Rs 3100</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-5.webp"
+                  alt="Image 6"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1289</h5>
+                  <p>Rs 3200</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-4.webp"
+                  alt="Image 7"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1290</h5>
+                  <p>Rs 3300</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-3.webp"
+                  alt="Image 8"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1291</h5>
+                  <p>Rs 3400</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/men-2.webp"
+                  alt="Image 9"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>M1292</h5>
+                  <p>Rs 3500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content for Special Occasions -->
+      <div class="my-accordion-item">
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree"
+          data-bs-parent="#accordionPanelsStayOpenExample"
+        >
+          <div class="accordion-body">
+            <div class="owl-carousel owl-theme accordion-carousel">
+              <div class="item">
+                <img
+                  src="./images/c-10.jpg"
+                  alt="Image 1"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1284</h5>
+                  <p>Rs 2700</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-2.jpg"
+                  alt="Image 2"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1285</h5>
+                  <p>Rs 2800</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-3.jpg"
+                  alt="Image 3"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1286</h5>
+                  <p>Rs 2900</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-4.jpg"
+                  alt="Image 4"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1287</h5>
+                  <p>Rs 3000</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-5.jpg"
+                  alt="Image 5"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1288</h5>
+                  <p>Rs 3100</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-6.jpeg"
+                  alt="Image 6"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1289</h5>
+                  <p>Rs 3200</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-7.jpg"
+                  alt="Image 7"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1290</h5>
+                  <p>Rs 3300</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-8.jpg"
+                  alt="Image 8"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1291</h5>
+                  <p>Rs 3400</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/c-9.jpg"
+                  alt="Image 9"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>O1292</h5>
+                  <p>Rs 3500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content for Celebrities Choice -->
+      <div class="my-accordion-item">
+        <div
+          id="panelsStayOpen-collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFour"
+          data-bs-parent="#accordionPanelsStayOpenExample"
+        >
+          <div class="accordion-body">
+            <div class="owl-carousel owl-theme accordion-carousel">
+              <div class="item">
+                <img
+                  src="./images/gb-1.webp"
+                  alt="Image 1"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>C1284</h5>
+                  <p>Rs 2700</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/gb-2.webp"
+                  alt="Image 2"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>C1285</h5>
+                  <p>Rs 2800</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/gb-6.jpg"
+                  alt="Image 3"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>C1286</h5>
+                  <p>Rs 2900</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/gb-4.webp"
+                  alt="Image 4"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>C1287</h5>
+                  <p>Rs 3000</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/gb-5.webp"
+                  alt="Image 5"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>C1288</h5>
+                  <p>Rs 3100</p>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="./images/gb-6.jpg"
+                  alt="Image 6"
+                  class="carousel-img"
+                />
+                <div class="item-body">
+                  <h5>C1289</h5>
+                  <p>Rs 3200</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--7. category -->
+    <!--8. Newsletter -->
+    <div class="container">
+      <div class="row subscription-section">
+        <div class="col-md-6 mb-4">
+          <img
+            src="./images/NEWSLETTER.jpg"
+            class="img-fluid d-lg-block d-none"
+            alt="Fashion"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="subscription-form">
+            <h4>Be the first to know</h4>
+            <p>
+              What's inside: latest drops, best sellers, sale alerts and more.
+            </p>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="input-group mb-3">
+                <select class="form-select" required>
+                  <option value="PK +92" selected>PK +92</option>
+                  <option value="US +1">US +1</option>
+                  <!-- Add more options as needed -->
+                </select>
+                <input
+                  type="tel"
+                  class="form-control phone-input w-75"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+              <div class="form-check mb-3">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="subscribeCheck"
+                />
+                <label class="form-check-label" for="subscribeCheck">
+                  I would like to sign up for emails and text
+                </label>
+              </div>
+              <button type="submit" class="btn btn-dark w-100">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--8. Newsletter -->
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center text-lg-start text-center">
+          <div class="col-md-3">
+            <div class="logo">
+              <img
+                src="./images/new logo concept rent hives web-04-05.svg"
+                alt=""
+                class="img-fluid h-50 w-75"
+              />
+            </div>
+          </div>
+          <div class="col-md-3 contact">
+            <h5 class="text-black fw-bold">Contact</h5>
+            <p>
+              <i class="bi bi-geo-alt-fill"></i> UG-01, Lavish Mall, opposite
+              Dolmen Mall, Tariq Road Karachi
+            </p>
+            <p>
+              <i class="bi bi-geo-alt-fill"></i> 57, Closet, First Floor, Above
+              Jalal Sons, Hussain Chowk, Block B3, Gulberg 3, Lahore
+            </p>
+            <p><i class="bi bi-telephone-fill"></i> (+92) 304 111 7368</p>
+          </div>
+          <div class="col-md-3 help">
+            <h5 class="text-black fw-bold">Get Help</h5>
+            <p>Privacy Policy</p>
+            <p>FAQ</p>
+            <p>Ranters Policy</p>
+            <p>Lenders Policy</p>
+          </div>
+          <div class="col-md-3 social">
+            <h5 class="text-black fw-bold">Social Media</h5>
+            <p><i class="bi bi-facebook"></i> Facebook</p>
+            <p><i class="bi bi-instagram"></i> Instagram</p>
+            <p><i class="bi bi-youtube"></i> YouTube</p>
+            <p><i class="bi bi-whatsapp"></i> WhatsApp</p>
+            <p><i class="bi bi-tiktok"></i> TikTok</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright">&copy; 2024 Rent Hives</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer  -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS (optional, if you need Bootstrap JavaScript components) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+</html>

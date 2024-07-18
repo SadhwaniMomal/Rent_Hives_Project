@@ -380,3 +380,8 @@
   padding: 10px 0;
   text-align: center;
 }
+
+/* pop display form */
+.subscription-form {
+  background-color: ghostwhite !important;
+}

@@ -1132,6 +1132,68 @@
       </div>
     </section>
     <!-- poster-section -->
+    <!-- Pop display form -->
+    <div id="subscription-form" class="container mb-4">
+      <div class="row justify-content-center">
+        <div class="col-md-6 d-lg-block d-none">
+          <img src="./images/NEWSLETTER.jpg" alt="Model" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-6">
+          <h2>Be the first to know</h2>
+          <p>
+            What's inside: latest drops, best sellers, sale alerts and more.
+          </p>
+          <form id="form" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="mb-3">
+              <select class="form-select" required>
+                <option value="">Select country code</option>
+                <option value="+92">PK +92</option>
+                <!-- Add more country codes as needed -->
+              </select>
+              <input
+                type="tel"
+                class="form-control mt-2"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+              />
+              <div class="invalid-feedback">
+                Please enter a valid phone number.
+              </div>
+            </div>
+            <div class="form-check mb-3">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="sign-up"
+                required
+              />
+              <label class="form-check-label" for="sign-up"
+                >I would like to sign up for emails and text</label
+              >
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">
+              Subscribe Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pop display form -->
     <!-- Footer  -->
     <footer class="footer">
       <div class="container">

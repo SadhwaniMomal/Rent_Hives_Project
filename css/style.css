@@ -274,30 +274,43 @@
 .accordion-container .d-flex .accordion-header {
   margin-bottom: 0;
 }
+
 .accordion-container .my-accordion-button {
   border: none;
   background-color: transparent;
-  color: #000;
+  color: #dc9c2a;
   font-size: 20px;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   outline: none !important;
 }
+
+.accordion-container .my-accordion-button.active,
+.accordion-container .my-accordion-button:focus {
+  color: #000;
+  text-decoration: underline #dc9c2a;
+  font-weight: 500;
+}
+
 .accordion-body .accordion-carousel .item {
   /* margin: 10px; */
   color: #fff;
   border-radius: 3px;
   text-align: center;
 }
+
 .carousel-img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
 .custom-nav {
   text-align: center;
+  margin-top: 20px;
 }
+
 .custom-nav button {
   background-color: transparent;
   border: none;
@@ -307,9 +320,11 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
 .custom-nav button:hover {
   background-color: #dedede;
 }
+
 .slide-number {
   margin-top: 20px;
   font-size: 1.2em;

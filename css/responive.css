@@ -73,6 +73,21 @@
   }
 }
 
+@media (max-width: 444px) {
+  .text-container h1,
+  .text-container h2 {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    padding: 0 !;
+  }
+  .text-container p {
+    font-size: 1rem !important;
+    width: 100% !important;
+    font-weight: 900 !important;
+  }
+}
+
 /* category */
 @media (max-width: 768px) {
   .accordion-container .my-accordion-button {

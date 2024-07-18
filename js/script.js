@@ -37,6 +37,7 @@ $(document).ready(function () {
 });
 
 //category
+
 $(document).ready(function () {
   $(".accordion-carousel").owlCarousel({
     loop: true,

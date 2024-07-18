@@ -10,15 +10,9 @@
   }
 }
 
-@media (max-width: 475px) {
-  .content .text-container h1 {
-    font-size: 38px !important;
-  }
-}
-
 @media (max-width: 992px) {
   .my-navbar .navbar-brand img {
-    width: 350px !important;
+    width: 250px !important;
     height: 100% !important;
   }
   .my-navbar .navbar-brand {
@@ -58,19 +52,13 @@
 }
 
 /* hero here */
-@media (max-width: 991.98px) {
-  .text-container h1,
-  .text-container h2,
-  .text-container p {
-    font-size: 55px !important;
-  }
-}
 @media (max-width: 768px) {
   .text-container h1,
   .text-container h2 {
     font-size: 2.5rem !important;
-    width: 100% !important;
-    font-weight: 900 !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    padding: 0 !;
   }
 }
 @media (max-width: 768px) {
@@ -85,7 +73,20 @@
   }
 }
 
-/* Our best seller */
+/* category */
+@media (max-width: 768px) {
+  .accordion-container .my-accordion-button {
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important;
+    margin: 0;
+  }
+}
 
 /* newsletere */
 @media (min-width: 992px) {

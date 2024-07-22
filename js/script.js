@@ -58,37 +58,3 @@ $(document).ready(function () {
 });
 
 // pop display form
-
-$(document).ready(function () {
-  // Show the form with fade-in effect on page load
-  setTimeout(function () {
-    $("#subscription-form").show().addClass("fade-in");
-  }, 500); // Adjust the delay as needed
-
-  // Form validation
-  (function () {
-    "use strict";
-    var forms = document.querySelectorAll(".needs-validation");
-    Array.prototype.slice.call(forms).forEach(function (form) {
-      form.addEventListener(
-        "submit",
-        function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add("was-validated");
-        },
-        false
-      );
-    });
-  })();
-
-  // Close button functionality
-  $("#close").click(function () {
-    $("#subscription-form").removeClass("fade-in").addClass("fade-out");
-    setTimeout(function () {
-      $("#subscription-form").hide();
-    }, 1000);
-  });
-});
